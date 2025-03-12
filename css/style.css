@@ -3,18 +3,29 @@
     padding: 0;
 }
 
-#footer{
-    padding: 1em;
-    background-color: #B75353;
-    position: fixed;
-    position: absolute;
-    width: 100%;
+footer{
+    padding: 1em !important;
+    background-color: #B75353 !important;
+    position: fixed !important;
+    position: absolute !important;
+    width: 100% !important;
 }
 
 #titulo{
-    text-align: center;
+    text-align: center !important;
 }
 
 body{
-    background-image: url("/img/Folhagem.jpg");
+    background-image: url("/img/Folhagem.jpg") !important;
+}
+#div1{
+    position: absolute;
+    top: 200px;
+    left: 500px;
+}
+
+#calcular{
+    position: absolute;
+    top: 500px;
+    left: 550px;
 }
