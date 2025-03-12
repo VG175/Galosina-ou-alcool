@@ -13,19 +13,22 @@ footer{
 
 #titulo{
     text-align: center !important;
+    position: absolute;
+    top: 100px;
+    left:750px ;
 }
 
 body{
     background-image: url("/img/Folhagem.jpg") !important;
 }
 #div1{
-    position: absolute;
-    top: 200px;
-    left: 500px;
+    position: absolute !important;
+    top: 300px !important;
+    left: 500px !important;
 }
 
-#calcular{
-    position: absolute;
-    top: 500px;
-    left: 550px;
+#converter {
+    position: absolute !important;
+    top: 400px !important;
+    left: 800px !important;
 }
