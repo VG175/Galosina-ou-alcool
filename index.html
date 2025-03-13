@@ -14,12 +14,14 @@
     <main>
         <div id="div1">
             <button>Valor da Gasolina</button>
-            <input type="number"><br>
+            <button>=</button>
+            <input type="number" id="num1"><br>
             <button>Valor do Álcool</button>
-            <input type="number"><br>
+            <button>=</button>
+            <input type="number" id="num2"><br>
         </div>
-
-         <button id="converter" onclick="calcular()">Converter</button>
+         <button id="converter" onclick="gerar()">Converter</button>
+         <p id="tab"></p>
     </main>
     <footer class="fixed-bottom">
         <p>*Cálculo de acordo com gasto por litros, podendo o resultado final ser influenciado por, fatores técnicos  e naturais, como modelo do veículo, temperatura ambiente 

@@ -13,13 +13,14 @@ footer{
 
 #titulo{
     text-align: center !important;
-    position: absolute;
-    top: 100px;
-    left:750px ;
+    position: absolute !important;
+    top: 100px !important;
+    left:750px !important;
 }
 
 body{
     background-image: url("/img/Folhagem.jpg") !important;
+    
 }
 #div1{
     position: absolute !important;
@@ -32,3 +33,25 @@ body{
     top: 400px !important;
     left: 800px !important;
 }
+button {
+    background-color: #4CAF50; /* Cor de fundo */
+    color: black; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno */
+    border: none; /* Remover borda */
+    border-radius: 20px; /* Tornar as bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    cursor: pointer; /* Cursor de mãozinha ao passar o mouse */
+    transition: background-color 0.3s; /* Animação suave para mudança de cor */
+}
+
+input {
+    width: 300px; /* Largura do campo */
+    padding: 10px; /* Espaçamento interno */
+    border: 2px solid #ccc; /* Borda simples */
+    border-radius: 10px; /* Bordas arredondadas */
+    font-size: 16px; /* Tamanho da fonte */
+    outline: none; /* Remover o destaque azul padrão */
+    transition: border-color 0.3s; /* Animação suave para foco */
+  }
+  
+  
