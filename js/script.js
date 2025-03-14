@@ -4,8 +4,18 @@
 // é mais vantajoso abastecer com alcool
 // Se não, gasolina
 
+function calcular(){
+    var gasolina = Number(document.getElementById("num1").value);
+    var alcool = Number(document.getElementById("num2").value);
 
-function gerar (){
-    let num1 = Number(document.getElementById("num1").value);
-    let num2 = Number(document.getElementById("num2").value)
+    var conta = alcool / gasolina;
+
+    if(conta <= 0.7){
+        document.getElementById("resultado").innerHTML = "Melhor Alcool";
+
+    }
+    else{
+        document.getElementById("resultado").innerHTML = "Melhor Gasolina";
+    }
+
 }

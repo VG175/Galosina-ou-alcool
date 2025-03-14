@@ -12,16 +12,19 @@
         <h1>U-Conversor</h1>
     </header>
     <main>
-        <div id="div1">
-            <button>Valor da Gasolina</button>
-            <button>=</button>
-            <input type="number" id="num1"><br>
-            <button>Valor do Álcool</button>
-            <button>=</button>
-            <input type="number" id="num2"><br>
+        <div>
+            <form >
+                <button>Valor da Gasolina</button>
+                <button>=</button>
+                <input type="number" id="num1"><br>
+                <button>Valor do Álcool</button>
+                <button>=</button>
+                <input type="number" id="num2">
+            </form>
         </div>
-         <button id="converter" onclick="gerar()">Converter</button>
-         <p id="tab"></p>
+        <button id="converter" onclick="calcular()">Calcular<button>
+        <p id="resultado"></p>
+
     </main>
     <footer class="fixed-bottom">
         <p>*Cálculo de acordo com gasto por litros, podendo o resultado final ser influenciado por, fatores técnicos  e naturais, como modelo do veículo, temperatura ambiente 

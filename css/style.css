@@ -1,38 +1,44 @@
 *{
-    margin: 0%;
+    margin: 0;
     padding: 0;
-}
-
-footer{
-    padding: 1em !important;
-    background-color: #B75353 !important;
-    position: fixed !important;
-    position: absolute !important;
-    width: 100% !important;
 }
 
 #titulo{
     text-align: center !important;
-    position: absolute !important;
+    /* position: absolute !important;
     top: 100px !important;
-    left:750px !important;
+    left:750px !important; 
+    background-color: aqua;*/
 }
 
 body{
     background-image: url("/img/Folhagem.jpg") !important;
+    background-repeat: no-repeat !important;
+    
     
 }
 #div1{
-    position: absolute !important;
+    /* position: absolute !important;
     top: 300px !important;
-    left: 500px !important;
+    left: 500px !important; */
+  
+}
+main{
+    margin-left: 25% !important;
+    margin-right: 25% !important;
+    margin-top: 10% !important;
+    background-color: aquamarine;
+    padding: 3em !important;
+    text-align: center !important;
+    border-radius: 3em !important;
 }
 
 #converter {
-    position: absolute !important;
+    /* position: absolute !important;
     top: 400px !important;
-    left: 800px !important;
+    left: 800px !important; */
 }
+
 button {
     background-color: #4CAF50; /* Cor de fundo */
     color: black; /* Cor do texto */
@@ -54,4 +60,11 @@ input {
     transition: border-color 0.3s; /* Animação suave para foco */
   }
   
+  footer{
+    padding: 1em !important;
+    background-color: #B75353 !important;
+    /* position: fixed !important;
+    position: absolute !important; */
+    width: 100% !important;
+}
   
