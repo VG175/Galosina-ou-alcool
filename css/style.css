@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-#titulo{
+.titulo{
     text-align: center !important;
     /* position: absolute !important;
     top: 100px !important;
@@ -17,12 +17,10 @@ body{
     
     
 }
-#div1{
-    /* position: absolute !important;
+/* #div1{
+    position: absolute !important;
     top: 300px !important;
-    left: 500px !important; */
-  
-}
+    left: 500px !important; } */
 main{
     margin-left: 25% !important;
     margin-right: 25% !important;
