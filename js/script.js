@@ -10,10 +10,14 @@ function calcular(){
 
     var conta = alcool / gasolina;
 
-    if(conta <= 0.7){
-        document.getElementById("resultado").innerHTML = "Melhor Alcool";
+    if(conta == 0){
+        document.getElementById("resultado").innerHTML = "Valor invalido";
 
     }
+    else if (conta <= 0.7){
+        document.getElementById("resultado").innerHTML = "Melhor álcool";
+    }
+
     else{
         document.getElementById("resultado").innerHTML = "Melhor Gasolina";
     }
